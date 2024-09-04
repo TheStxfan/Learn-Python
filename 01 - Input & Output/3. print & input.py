@@ -15,7 +15,7 @@ print("Hello ", end="")  # end="" --> next print or input is on the same line
 print("World!", end="\n")  # end="\n" --> next print or input is on the following line
 print("test\n")
 
-print("Hello", end=" World!")  # end="something" --> displays "something" at the end of the line; next print or input is on the same line
+print("Hello", end=" World!")  # end displays " World!" at the end of the line; next print or input is on the same line
 print(" test\n")
 
 print("Hello",
