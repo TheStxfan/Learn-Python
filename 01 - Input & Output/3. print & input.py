@@ -25,4 +25,3 @@ input()  # waits for any user input followed by the enter key before continuing
 input("Enter your name: ")  # waits for user input (specific input) before continuing the program
 
 input("This is a prompt.")  # the text displayed by an input command is called a prompt
-
