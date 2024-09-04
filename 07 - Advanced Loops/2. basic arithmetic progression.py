@@ -1,4 +1,3 @@
-
 def sum_up_to(numbers, step=1, start=1):
     result = 0
     for i in range(start, numbers+1, step):

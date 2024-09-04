@@ -1,4 +1,3 @@
-
 print("Hello World!\n")  # \n --> special character - new line
 
 print("Hello " + "World!\n")  # + --> concatenation without space

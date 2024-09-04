@@ -1,4 +1,3 @@
-
 def product_of_two_numbers(a, b):
     product = a * b
     return product

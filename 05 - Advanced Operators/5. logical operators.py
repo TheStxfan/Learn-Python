@@ -1,4 +1,3 @@
-
 # //and, &
 # -True : if both are True
 # 1 and 1 = True

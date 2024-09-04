@@ -1,4 +1,3 @@
-
 # 1
 def sum_integers(a, b, c):
     sum_result = a + b + c

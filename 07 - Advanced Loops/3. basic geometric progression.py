@@ -1,4 +1,3 @@
-
 # todo : create the geometric progression calculator
 
 def sum_up_to(numbers, step=1, start=1):

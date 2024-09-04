@@ -1,4 +1,3 @@
-
 # The indented part of any control flow statement is called the code block or body.
 # Indentation in Python indicates which statements are included in the control structure.
 # It is a way to show which lines of code are "inside" a loop, condition, or function.

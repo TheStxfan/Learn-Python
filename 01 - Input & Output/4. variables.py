@@ -1,4 +1,3 @@
-
 apples = 10  # assigning a value to a variable
 oranges = 20
 

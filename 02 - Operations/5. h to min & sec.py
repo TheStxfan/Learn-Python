@@ -1,4 +1,3 @@
-
 def conv(hours: int) -> tuple[int, int]:
     minutes = hours * 60
     seconds = hours * 3600

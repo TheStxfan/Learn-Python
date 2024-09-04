@@ -1,4 +1,3 @@
-
 def ask_for_operation():
     print(
         "\nChoose an operation:\n",

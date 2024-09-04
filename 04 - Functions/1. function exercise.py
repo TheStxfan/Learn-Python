@@ -1,4 +1,3 @@
-
 # 1
 def print_hello_world_thrice():
     print("Hello, World!\nHello, World!\nHello, World!")

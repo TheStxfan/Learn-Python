@@ -1,4 +1,3 @@
-
 def simple_interest(principal, interest, duration):
     current_year = principal
     for i in range(1, duration+1):

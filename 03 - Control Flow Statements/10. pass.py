@@ -1,4 +1,3 @@
-
 """
 While coding, you may need create functions or conditions like "if", "for", "while", etc., and leave the code block
  blank to be filled in later. To ensure the code remains syntactically correct, use the "pass" statement. It does

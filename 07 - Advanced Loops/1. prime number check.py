@@ -1,4 +1,3 @@
-
 # Prime number: divisible only by 1 and itself
 
 def check_is_prime(number):

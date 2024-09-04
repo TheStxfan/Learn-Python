@@ -1,4 +1,3 @@
-
 # 1 - applying string methods
 "hello world".upper()                                 # "HELLO WORLD"
 "HELLO World".lower()                                 # "hello world"

@@ -1,4 +1,3 @@
-
 def print_a_number_triangle(number):
 
     row = []

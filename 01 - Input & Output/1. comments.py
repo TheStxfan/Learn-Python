@@ -1,4 +1,3 @@
-
 # Every line starting with # is a comment.
 # This is a comment.
 # Comments are used to explain the code.

@@ -1,4 +1,3 @@
-
 # Ctrl + Space : suggestions, next commands
 # Ctrl + G : display templates
 # Shift (x2) : quick search for files, actions, symbols, and more

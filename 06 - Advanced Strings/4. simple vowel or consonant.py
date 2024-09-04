@@ -1,4 +1,3 @@
-
 vowels = ("A", "E", "I", "O", "U")
 
 letter = input("\nEnter here a letter: ").upper()

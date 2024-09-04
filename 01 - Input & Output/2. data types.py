@@ -1,4 +1,3 @@
-
 # to check the type of data
 type(45)                # <class 'int'>    --> integer
 type("Hello, World!")   # <class 'str'>    --> string
