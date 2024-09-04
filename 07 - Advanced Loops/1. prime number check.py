@@ -1,18 +1,20 @@
 
-def check_is_prime(number):
-    if number == 1:
-        return "Not Prime"
-    elif number == 2:
-        return "Prime"
+# Prime number: divisible only by 1 and itself
 
-    if not isinstance(number, int):
-        return "Not Prime"
+def check_is_prime(number):
+
+    prime = True
+    if not isinstance(number, int) or number < 2:
+        prime = False
 
     for i in range(2, number):
         if number % i == 0:
-            return "Not Prime"
+            prime = False
 
-    return "Prime"
+    if prime:
+        return f"Prime: {number}."
+    else:
+        return f"Not Prime: {number}."
 
 
 print()

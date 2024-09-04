@@ -5,9 +5,12 @@ def print_a_number_triangle(number):
     for i in range(1, number+1):
         row.append(i)
         for number in range(1, len(row)+1):
-            print(number, end=" ")
+            if number < 10:
+                print(f"{number:02}", end=" ")
+            else:
+                print(number, end=" ")
         print()
 
 
-print_a_number_triangle(50)
+print_a_number_triangle(15)
 input()
