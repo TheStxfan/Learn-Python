@@ -25,5 +25,22 @@ print(netherlands.name)  # Netherlands
 # In a class, each object has its own instances (attributes) of the data (state).
 
 
+class MotorBike:
+    pass
 
 
+honda = MotorBike()
+ducati = MotorBike()
+
+honda.speed = 50
+ducati.speed = 250
+
+print(honda)
+print(ducati)
+
+print(honda.speed)
+print(ducati.speed)
+
+honda.speed = 150
+print(honda.speed)
+print(ducati.speed)
