@@ -22,7 +22,7 @@ def calculate_result(first_number, second_number, operation_number):
     elif operation_number == 4:
         result = first_number / second_number
     elif operation_number == 5:
-        exit()
+        exit()  # ends the program
     return result
 
 

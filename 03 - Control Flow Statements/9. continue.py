@@ -15,7 +15,15 @@ for i in range(0, 99, 1):
 
 print()
 
-# 2 - infinite while loop
+# 2 - "continue" skips the rest of the code inside the current loop iteration
+
+for i in range(0, 99, 1):  # Loop from 0 to 98
+    i += 1
+    if i % 2 == 0:         # If i is even
+        continue           # Skip the rest of the loop body for this iteration
+    print(i)               # This line is skipped if i is even
+
+# 3 - infinite while loop
 i = 0
 while True:
     i += 1

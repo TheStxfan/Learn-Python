@@ -17,3 +17,8 @@ It can span multiple lines as well.
 # Only the # symbol can be used for comments after a command.
 
 print("Hello World!")  # This is an example of a comment after a command
+
+# You can comment one or multiple lines of code to exclude them from the execution of the program
+print("Hello, ")
+# print("I am ")  # This line of code is commented out and will not be executed at runtime.
+print("Pony")
