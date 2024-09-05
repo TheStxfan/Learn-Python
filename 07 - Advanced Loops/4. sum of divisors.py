@@ -17,7 +17,7 @@ def sum_of_divisors(number):
     return result
 
 
-print(sum_of_divisors(15))
+print(sum_of_divisors(15))  # 1 + 3 + 5 + 15 = 24
 
 
 # 2
@@ -34,4 +34,4 @@ def sum_of_divisors(number):
     return result
 
 
-print(sum_of_divisors(15))
+print(sum_of_divisors(20))  # 1 + 2 + 4 + 5 + 10 + 20 = 42
