@@ -6,7 +6,7 @@ type(True)              # <class 'bool'>   --> boolean
 
 # you can also convert data types with the following commands
 int(45)                   # convert to integer
-str("Test")                 # convert to string
+str("Test")               # convert to string
 float(4.5)                # convert to float
 bool(True)                # convert to boolean
 
