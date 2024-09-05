@@ -2,7 +2,7 @@
 def square_up_to(number):
     i = 1
     while i ** 2 <= number:
-        print(i ** 2)
+        print(i ** 2, end=" ")
         i += 1
 
 
@@ -15,7 +15,7 @@ print()
 def cube_up_to(number):
     i = 1
     while i ** 3 <= number:
-        print(i ** 3)
+        print(i ** 3, end=" ")
         i += 1
 
 
