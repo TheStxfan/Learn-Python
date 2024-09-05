@@ -1,5 +1,5 @@
 # Ctrl + Space : suggestions, next commands
-# Ctrl + G : display templates
+# Ctrl + J : display templates
 # Shift (x2) : quick search for files, actions, symbols, and more
 # Ctrl + Shift + E : recent locations
 # Ctrl + / : comment|uncomment one or multiple lines at once
