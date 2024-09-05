@@ -17,3 +17,6 @@ print(f"isEven = {isEven}")
 isOdd = 3 % 2 != 0
 print(f"isOdd  = {isOdd}")
 
+# 4
+isOdd = "Yes" if 2 % 2 != 0 else "No"
+print(f"isOdd  = {isOdd}")
