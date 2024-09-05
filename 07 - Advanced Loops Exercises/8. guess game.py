@@ -109,13 +109,13 @@ print('''for i in range(1, 11):
         continue      
     print(i, end=" ") 
 print("Done")''')
-print("\nFor this one you can check the explanation from line 112.")
+print("\nFor this one, you can check the explanation from line 112.")
 input("\nAnswer:")
 
 for i in range(1, 11):
-    if i % 2:          # If i == 1 --> 1 / 2 = 0.5, so 1 % 2 == 1 (True), so the continue command gets executed.
-        continue       # "continue" skips next commands for one indentation and continues for loop
-    print(i, end=" ")  # So this print statement is skipped
+    if i % 2:          # If i is odd
+        continue       # Skips the current iteration
+    print(i, end=" ")  # Prints only even numbers
 print("Done")
 
 input('\nPress "Enter" to continue.')
@@ -132,8 +132,8 @@ input("\nAnswer:")
 
 for i in range(1, 11):
     if i % 2 != 0:
-        continue
-    print(i, end=" ")
+        continue  # Skips odd numbers
+    print(i, end=" ")  # Prints only even numbers
 print("Done")
 
 input('\nPress "Enter" to continue.')
