@@ -1,5 +1,4 @@
 def print_a_number_triangle(number):
-
     row = []
     for i in range(1, number+1):
         row.append(i)
