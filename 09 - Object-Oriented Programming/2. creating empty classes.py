@@ -54,13 +54,13 @@ The_12th_Planet = Book()
 Dandelion_Wine = Book()
 The_Martian_Chronicles = Book()
 
-The_12th_Planet.name = "The 12th Planet"
-Dandelion_Wine.name = "Dandelion Wine"
-The_Martian_Chronicles.name = "The Martian Chronicles"
+The_12th_Planet.title = "The 12th Planet"
+Dandelion_Wine.title = "Dandelion Wine"
+The_Martian_Chronicles.title = "The Martian Chronicles"
 
-print(The_12th_Planet.name)
-print(Dandelion_Wine.name)
-print(The_Martian_Chronicles.name)
+print(The_12th_Planet.title)
+print(Dandelion_Wine.title)
+print(The_Martian_Chronicles.title)
 
 
 class Planet: pass
