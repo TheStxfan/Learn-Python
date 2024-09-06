@@ -1,8 +1,10 @@
 class MotorBike:
     """
-    The __init__() method is a constructor in Python classes that initializes a newly created object's attributes.
-    'self' refers to the current instance of a class and is used to access its attributes and methods.
-    Details on `self` are explained further.
+    The __init__() method is a constructor that initializes a newly created object's attributes.
+    'self' refers to the current instance of the class and is used to access its attributes and methods.
+    Note:
+    - All instance methods in a class need to have 'self' as their first parameter.
+    - Python classes can have only one constructor method.
     """
     def __init__(self):
         print("MotorBike instance created.")
