@@ -44,3 +44,33 @@ print(ducati.speed)
 honda.speed = 150
 print(honda.speed)
 print(ducati.speed)
+
+
+class Book:
+    pass
+
+
+The_12th_Planet = Book()
+Dandelion_Wine = Book()
+The_Martian_Chronicles = Book()
+
+The_12th_Planet.name = "The 12th Planet"
+Dandelion_Wine.name = "Dandelion Wine"
+The_Martian_Chronicles.name = "The Martian Chronicles"
+
+print(The_12th_Planet.name)
+print(Dandelion_Wine.name)
+print(The_Martian_Chronicles.name)
+
+
+class Planet: pass
+
+
+earth = Planet()
+earth.name = "The Earth"
+
+venus = Planet()
+venus.name = "Venus"
+
+print(earth.name)
+print(venus.name)

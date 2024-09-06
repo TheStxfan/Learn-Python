@@ -1,17 +1,21 @@
-# Object-Oriented Programming
+# Object-Oriented Programming (OOP)
 # Thinking about Objects
 
 """
- - Class
- - Data (state)
- - Actions (behaviour)
+ - Class:
+    1. Member Data/State/Fields
+    2. Actions/Methods/Behaviour
+    3. Objects/Instances
 """
 
 # Procedural/Structured Programming
-# Thinking in terms of procedures/methods/functions
+# Thinking in Terms of Procedures/Methods/Functions
+
+# A procedural function outlines sequential steps for a task, using global data accessible throughout the program.
+# A procedural function like fly() defines a sequence of steps for a task, where each step is globally accessible.
 
 """
-//Global Data
+// Global Data
 
 fly() {
     travelToAirport();
@@ -27,34 +31,63 @@ fly() {
 }
 """
 
-# Object Oriented Programming
+# Object-Oriented Programming Examples
 
+# Flight Objects
 """
 Airplane
-    airline, make, type, position //data
-    takeOff(), land(), cruise() //actions
+    - Data: airline, make, type, position
+    - Actions: takeOff(), land(), cruise()
 
 AirHostess
-    name, address //data
-    wish(), serve() //actions
-    
+    - Data: name, address
+    - Actions: wish(), serve()
+
 Passenger
-    name, address //data
-    takeCab(), checkIn(), walt(), smile() //actions
+    - Data: name, address
+    - Actions: takeCab(), checkIn(), wait(), smile()
 """
 
+# Online Shopping System
 """
-class Planet  //class
-    name, location, distanceFromSun //data/state/fields
-    revolve(), rotate() //actions/behavior/methods
+Customer
+    name, address
+    login(), logout(), selectProduct(product)
 
-earth = Planet();  # Object/Instance
-venus = Planet();
+Shopping Cart
+    items
+    add(item), remove(item)
+
+Product
+    name, price, quantityAvailable
+    order(), changePrice()
 """
 
+# Person
 """
- - Class
- - Member Data/State/Fields
- - Actions/Methods/Behaviour
- - Objects/Instances
+Person
+    name, address, hobbies, work
+    walk(), run(), sleep(), eat(), drink()
+"""
+
+# Object-Oriented Programming - Classes
+# A class in OOP is a blueprint for creating objects, defining their data (attributes) and behaviors (methods).
+
+"""
+class Planet:  # Class
+    # Data/State/Fields
+    name = ""
+    location = ""
+    distance_from_sun = 0.0
+
+    # Actions/Behavior/Methods
+    def revolve(self):
+        pass
+
+    def rotate(self):
+        pass
+
+# Objects/Instances
+earth = Planet()  
+venus = Planet()
 """
