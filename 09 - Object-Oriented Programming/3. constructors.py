@@ -1,6 +1,7 @@
 class MotorBike:
     """
     The __init__() method is a constructor that initializes a newly created object's attributes.
+    It is automatically called when an instance is created
     'self' refers to the current instance of the class and is used to access its attributes and methods.
     Note:
     - All instance methods in a class need to have 'self' as their first parameter.

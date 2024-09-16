@@ -1,7 +1,7 @@
 class MotorBike:
     def __init__(self, speed):  # Constructor with 'speed' parameter
         # Skip to line 6 for now
-        # self.speed = speed
+        self.speed = speed
 
         print(f"MotorBike instance created with speed {speed}.")
 
@@ -28,6 +28,7 @@ Uncomment line 4 and run the code again to see the change.
 
 input("\nPress Enter to continue with the next example.\n")
 
+
 # Now let's do the same for the empty Book class created in {section 09, file 2}
 
 
@@ -43,3 +44,24 @@ The_Martian_Chronicles = Book("The Martian Chronicles")
 print(The_12th_Planet.title)
 print(Dandelion_Wine.title)
 print(The_Martian_Chronicles.title)
+print()
+
+# Creating a Planet Class with default parameter
+
+
+class Planet:
+    def __init__(self, name="Earth"):  # If no parameter is given, sets name to the default value: "Earth"
+        self.name = name
+
+        # Creating default values for the instance attributes
+        self.speed = 10
+        self.distance_from_sun = 10000
+
+
+earth = Planet()
+
+print(earth.name)
+print(earth.speed)
+print(earth.distance_from_sun)
+
+

@@ -52,15 +52,15 @@ var8 = "hello world"[::-1]                            # "dlrow olleh" --> revers
 "hello world".rindex("world")                         # 6 --> (searches from the end, Raises ValueError)
 
 # 6 - checking string type methods
-"HELLO".isupper()                                     # True
-"hello".islower()                                     # True
-"   ".isspace()                                       # True
-"abc".isalpha()                                       # True
-"123".isdigit()                                       # True
-"Hello World".istitle()                               # True
-"1234".isnumeric()                                    # True
-"hello world".startswith("hello")                     # True
-"hello world".endswith("world")                       # True
-"hello123".isalnum()                                  # True --> (only letters or|and numbers)
-"hello world".isprintable()                           # True --> (only printable characters)
-"hello\nworld".isprintable()                          # False
+"HELLO".isupper()                                     # True  --> (all uppercase)
+"hello".islower()                                     # True  --> (all lowercase)
+"   ".isspace()                                       # True  --> (all whitespace)
+"abc".isalpha()                                       # True  --> (all letters)
+"123".isdigit()                                       # True  --> (all basic digits 0-9)
+"1234".isnumeric()                                    # True  --> (digits + other numeric chars, e.g., '²', '⅔')
+"Hello World".istitle()                               # True  --> (title case)
+"hello world".startswith("hello")                     # True  --> (starts with "hello")
+"hello world".endswith("world")                       # True  --> (ends with "world")
+"hello123".isalnum()                                  # True  --> (letters and/or digits)
+"hello world".isprintable()                           # True  --> (all printable)
+"hello\nworld".isprintable()                          # False --> (contains '\n')
