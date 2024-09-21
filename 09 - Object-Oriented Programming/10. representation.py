@@ -9,9 +9,7 @@ class MotorCycle:
     #     return repr((self.name, self.speed, self.brand))
 
 
-motorcycles = [MotorCycle("Ducati", 335, "Red"),
-               MotorCycle("Honda", 1400, "Orange"),
-               MotorCycle("Yamaha", 299, "Green")]
+motorcycles = MotorCycle("Ducati", 335, "Red")
 
 print(motorcycles)  # This will print the objects and their memory addresses. Run the code to check.
 
