@@ -6,16 +6,6 @@ class Fan:
         self.is_on = False
         self.speed = False
         print(f"\nFan created: {brand}, {radius}, {color}\n")
-        #
-        # if str(radius).replace(".", "").isdigit():
-        #     self.brand = brand
-        #     self.radius = radius
-        #     self.color = color
-        #     self.is_on = False
-        #     self.speed = False
-        #     print(f"\nFan created: {brand}, {radius}, {color}\n")
-        # else:
-        #     print("Invalid radius.")
 
     def switch_on(self, speed=0):
         if not self.speed == speed:
@@ -54,12 +44,6 @@ input_radius = input("Radius: ")
 input_color = input("Color: ")
 
 new_fan = Fan(input_name, input_radius, input_color)
-
-# new_fan = False
-#
-# while not new_fan:
-#     if not new_fan:
-#         new_fan = Fan(input_name, input_radius, input_color)
 
 menu = 0
 
