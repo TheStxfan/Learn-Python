@@ -104,6 +104,10 @@ import builtins
 #         type
 #         zip
 
+# The indentation shows which exceptions are parts of others.
+# You can see that BaseException includes BaseExceptionGroup and Exception.
+# This means that if BaseExceptionGroup or Exception occur, they both can be handled with except BaseException.
+
 # The following command will display detailed documentation on all built-in identifiers in Python.
 # Running it in the Python console will give you a readable list of all built-in functions, exceptions, etc.
 help(builtins)
