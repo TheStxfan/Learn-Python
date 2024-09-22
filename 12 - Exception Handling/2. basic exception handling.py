@@ -1,8 +1,8 @@
 # Run this code first without handling exceptions
-i = 0
-j = 10 / i    # This will raise a ZeroDivisionError
-print(j)      # Output: ZeroDivisionError: division by zero
-print('End')  # This line won't execute because of the error
+# i = 0
+# j = 10 / i    # This will raise a ZeroDivisionError
+# print(j)      # Output: ZeroDivisionError: division by zero
+# print('End')  # This line won't execute because of the error
 
 # After running, comment lines 1 to 5 to continue with exception handling
 
@@ -39,6 +39,7 @@ except ZeroDivisionError:       # Handle division by zero error
 print(j)      # This will print the value after the specific exception handling
 print('End')
 
+input('\nPress Enter to continue.\n')
 # Multiple errors can be handled with the same code block
 
 try:
@@ -49,3 +50,13 @@ try:
 except (TypeError, ZeroDivisionError):
     print('TypeError')
     j = 10
+print('End')
+
+input('\nPress Enter to continue.\n')
+# Displaying more detailed error
+
+try:
+    sum([1, '1'])
+except TypeError as error:
+    print(error)  # unsupported operand type(s) for +: 'int' and 'str'
+print('End')
