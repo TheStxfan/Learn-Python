@@ -1,16 +1,17 @@
 from abc import ABC, abstractmethod
-# prepare
-# recipe
-# cleanup
 
 
+# Abstract class defining the structure or template for executing a recipe.
 class AbstractRecipe(ABC):
 
+    # Template method defines the steps to execute the recipe.
+    # Subclasses will define the specifics of each step.
     def execute(self):
         self.prepare()
         self.recipe()
         self.cleanup()
 
+    # Abstract methods that must be implemented by any subclass.
     @abstractmethod
     def prepare(self): pass
 
@@ -21,7 +22,8 @@ class AbstractRecipe(ABC):
     def cleanup(self): pass
 
 
-class MicrowaveRecipe1(AbstractRecipe):
+# Subclass that implements the specific steps of the template.
+class MicrowaveRecipe(AbstractRecipe):
 
     def prepare(self):
         print('do the dishes')
@@ -35,4 +37,6 @@ class MicrowaveRecipe1(AbstractRecipe):
         print('switch off microwave')
 
 
-MicrowaveRecipe1().execute()
+# The Template Method pattern allows `execute` to follow the same sequence
+# while subclasses like MicrowaveRecipe implement the details of each step.
+MicrowaveRecipe().execute()
