@@ -16,3 +16,6 @@ finally:                        # Always runs, regardless of exceptions.
 
 print(j)
 print('End')
+
+# You cannot have an else block without except blocks.
+# You can have finally without except blocks.
