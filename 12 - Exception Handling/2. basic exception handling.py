@@ -6,7 +6,7 @@
 
 # After running, comment lines 1 to 5 to continue with exception handling
 
-# Now let's try to handle the exception
+# Now let's try to handle the exception with try and except. These commands are called constructs.
 
 try:                    # Attempt to run this block
     i = 2
