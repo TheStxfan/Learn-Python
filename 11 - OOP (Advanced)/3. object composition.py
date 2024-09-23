@@ -1,5 +1,6 @@
 # Object composition is a class containing objects of other classes to reuse their functionality.
 # It is used to build complex systems.
+# All Python methods starting and ending with "__" are called dunder methods (short for double underscore methods).
 
 class Book:
     def __init__(self, book_id, name, author):
