@@ -1,6 +1,4 @@
-# To display available modules with TAB, install pyreadline3 with the following command in CMD
-# python -m pip install pyreadline3
-# # Modules will be explained in more detail in section 08.
+# Modules will be explained in more detail in section 08.
 
 from string import *
 
