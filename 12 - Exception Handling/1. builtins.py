@@ -7,7 +7,7 @@ import builtins
 # However, importing 'builtins' can be helpful when you override a built-in name (e.g., len, print)
 # and still need access to the original built-in functionality.
 
-# The most common exceptions hierarchy in Python:
+# You can see the most common exceptions in Python in the following hierarchy:
 
 # CLASSES
 #     object

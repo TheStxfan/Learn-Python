@@ -9,7 +9,7 @@ class LandAnimal:
 
 class WaterAnimal:
     def __init__(self):
-        super().__init__()
+        super().__init__()  # It is better to always use this line in superclasses to avoid errors with future classes.
         self.swimming_speed = 10
 
     def increase_swimming_speed(self, amount):
