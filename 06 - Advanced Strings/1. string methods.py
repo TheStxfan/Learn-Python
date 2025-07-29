@@ -4,19 +4,21 @@
 "hello world".capitalize()                            # "Hello world"
 "hello world".title()                                 # "Hello World"
 "hELLO wORLD".swapcase()                              # "Hello World"
-"hello world".center(18, "*")          # "****hello world****"
-"hello world".ljust(18, "*")           # "hello world******"
-"hello world".rjust(18, "*")           # "******hello world"
+"hello world".center(18, "*")                         # "****hello world****"
+"hello world".ljust(18, "*")                          # "hello world******"
+"hello world".rjust(18, "*")                          # "******hello world"
 
 # 2 - formatting strings
 "  hello  ".strip()                                   # "hello"
 "  hello".lstrip()                                    # "hello"
 "hello  ".rstrip()                                    # "hello"
-"hello world".replace("world", "Python")  # "hello Python"
+"hello***".removesuffix("***")                        # "hello"
+"***hello".removeprefix("***")                        # "hello"
+"hello world".replace("world", "Python")              # "hello Python"
 "hello world".split()                                 # ["hello", "world"]
 ", ".join(["apple", "banana", "cherry"])              # "apple, banana, cherry"
 "Hello, {}".format("world")                           # "Hello, world"
-"{} {}".format("Hello", "world")                # "Hello world"
+"{} {}".format("Hello", "world")                      # "Hello world"
 
 # 3 - display strings with padding
 "{:10}".format("test")                                # "test      " (in 10 spaces)
