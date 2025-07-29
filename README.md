@@ -2,4 +2,4 @@
 
 My Python Learning Process.
 
-This repository reflects my journey through a Udemy course that covers Python from beginner to advanced levels. My goals with this repo are to provide a cheat sheet for those who already know Python and to offer all the necessary information to learn the language sequentially for those who don't. Following the files in order will enable a complete understanding without needing external guides. Please note that the course on which this repository is based is no longer open for enrollment: https://www.udemy.com/course/python-tutorial-for-beginners/
+This repository reflects my self-taught journey in learning Python, from beginner to advanced levels. My goal is to provide a cheat sheet for those who already know Python and a clear, sequential path for those starting from scratch. By following the files in order, you can gain a complete understanding without needing external guides.
